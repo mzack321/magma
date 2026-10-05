@@ -443,3 +443,540 @@ body {
 .page12-inner:hover .center12 {
     height: 100%;
 }
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 1024px) {
+
+    #page1 > nav {
+        padding: 0 25px;
+    }
+
+    #page1 > nav > img {
+        width: 15%;
+    }
+
+    .bottom-page1 {
+        left: 7%;
+        width: 80%;
+    }
+
+    .bottom-page1 > h1 {
+        font-size: 6vw;
+    }
+
+    .bottom-page1-inner > h4 {
+        font-size: 2vw;
+    }
+
+    #page2 {
+        padding: 0 7vw;
+    }
+
+    #page2 > h2 {
+        font-size: 2.5vw;
+    }
+
+    #page2 > h1 {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    #page4 > h3 {
+        margin-left: 10vw;
+        font-size: 2.5vw;
+    }
+
+    #page4 > h1 {
+        margin-left: 10vw;
+        width: 80%;
+        font-size: 4vw;
+    }
+
+    .left7 {
+        width: 35%;
+    }
+
+    .right7 {
+        width: 65%;
+    }
+
+    .left7 > h1 {
+        font-size: 6vw;
+    }
+
+    .page8-right {
+        width: 60%;
+        left: 40%;
+    }
+
+    .right8-inner > h1 {
+        font-size: 2.5vw;
+    }
+
+    .right8-inner > p {
+        font-size: 1.7vw;
+    }
+
+    .right9 {
+        left: 48%;
+        width: 47%;
+    }
+
+    .right9 > h1 {
+        font-size: 2.5vw;
+    }
+
+    .page10-inner {
+        right: 10%;
+    }
+
+    .page10-inner > h1 {
+        font-size: 7vw;
+    }
+
+    .page10-inner > p {
+        font-size: 2vw;
+    }
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #main {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    /* =================
+       PAGE 1
+    ================= */
+
+    #page1 {
+        height: 100vh;
+        width: 100%;
+    }
+
+    #page1 > video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #page1 > nav {
+        height: 80px;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    #page1 > nav > img {
+        width: 30%;
+        margin-top: 0;
+    }
+
+    #right-nav {
+        display: flex;
+        gap: 8px;
+    }
+
+    #right-nav > button {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    #right-nav > button:nth-child(2) {
+        padding: 8px 12px;
+    }
+
+
+    .bottom-page1 {
+        left: 7%;
+        bottom: 7%;
+        width: 86%;
+        height: 45vh;
+    }
+
+    .bottom-page1 > h1 {
+        font-size: 11vw;
+        line-height: 1.05;
+    }
+
+    .bottom-page1-inner {
+        height: auto;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .bottom-page1-inner > h4 {
+        font-size: 4vw;
+        line-height: 1.4;
+    }
+
+    .bottom-page1-inner > button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+
+    /* =================
+       PAGE 2
+    ================= */
+
+    #page2 {
+        min-height: 100vh;
+        height: auto;
+        padding: 70px 7%;
+    }
+
+    #page2 > h2 {
+        font-size: 5vw;
+        line-height: 1.3;
+        margin-bottom: 30px;
+    }
+
+    #page2 > h1 {
+        width: 100%;
+        font-size: 8vw;
+        line-height: 1.25;
+    }
+
+
+    /* =================
+       PAGE 3
+    ================= */
+
+    #page3 {
+        height: 70vh;
+    }
+
+    #page3 > canvas {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+    /* =================
+       PAGE 4
+    ================= */
+
+    #page4 {
+        height: auto;
+        min-height: 100vh;
+        padding: 70px 7%;
+    }
+
+    #page4 > h3 {
+        margin-left: 0;
+        margin-bottom: 30px;
+        font-size: 5vw;
+        line-height: 1.3;
+    }
+
+    #page4 > h1 {
+        margin-left: 0;
+        width: 100%;
+        font-size: 7vw;
+        line-height: 1.3;
+    }
+
+
+    /* =================
+       PAGE 5
+    ================= */
+
+    #page5 {
+        height: 70vh;
+    }
+
+    #page5 > canvas {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+    /* =================
+       PAGE 6
+    ================= */
+
+    #page6 {
+        height: 80vh;
+    }
+
+    #page6 > video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .page6-bottom {
+        width: 90%;
+        bottom: 8%;
+    }
+
+    .page6-bottom > h1 {
+        font-size: 10vw;
+        margin-bottom: 25px;
+    }
+
+    .page6-bottom > button {
+        padding: 12px 22px;
+        font-size: 13px;
+    }
+
+
+    /* =================
+       PAGE 7
+    ================= */
+
+    #page7 {
+        height: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0;
+    }
+
+    .left7 {
+        width: 100%;
+        height: auto;
+        padding: 0 7%;
+    }
+
+    .left7 > h1 {
+        position: static;
+        transform: none;
+        font-size: 12vw;
+        line-height: 1;
+        margin-bottom: 50px;
+    }
+
+    .right7 {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .right7-centre {
+        width: 86%;
+        height: 90%;
+        left: 7%;
+        top: 50%;
+    }
+
+
+    /* =================
+       PAGE 8
+    ================= */
+
+    #page8 {
+        height: auto;
+        min-height: 100vh;
+        padding: 70px 7%;
+    }
+
+    .page8-right {
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    .right8-inner {
+        height: auto;
+        min-height: 33vh;
+        margin-bottom: 50px;
+    }
+
+    .right8-inner > h1 {
+        font-size: 7vw;
+        line-height: 1.2;
+    }
+
+    .right8-inner > p {
+        width: 100%;
+        font-size: 4vw;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+
+    /* =================
+       PAGE 9
+    ================= */
+
+    #page9 {
+        height: auto;
+        min-height: 100vh;
+        padding: 70px 7%;
+    }
+
+    #page9 > h1 {
+        position: static;
+        font-size: 10vw;
+        margin-bottom: 50px;
+    }
+
+    .page9-inner {
+        top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .left9 {
+        width: 100%;
+        height: 220px;
+        left: 0;
+    }
+
+    .left9 > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .right9 {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .right9 > h4 {
+        font-size: 3vw;
+        margin-bottom: 12px;
+    }
+
+    .right9 > h1 {
+        font-size: 6vw;
+        line-height: 1.2;
+    }
+
+
+    /* =================
+       PAGE 10
+    ================= */
+
+    #page10 {
+        height: 70vh;
+    }
+
+    .page10-inner {
+        position: absolute;
+        top: 25%;
+        left: 7%;
+        right: 7%;
+    }
+
+    .page10-inner > h1 {
+        font-size: 12vw;
+        margin-bottom: 25px;
+    }
+
+    .page10-inner > p {
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+
+
+    /* =================
+       PAGE 11
+    ================= */
+
+    #page11 {
+        height: auto;
+        min-height: 50vh;
+        padding: 70px 7%;
+    }
+
+    #page11 > h1 {
+        font-size: 12vw;
+        line-height: 1.1;
+    }
+
+    #page11 > button {
+        margin-top: 30px;
+        padding: 12px 25px;
+    }
+
+
+    /* =================
+       PAGE 12
+    ================= */
+
+    #page12 {
+        height: auto;
+    }
+
+    .page12-inner {
+        height: 100px;
+        padding: 0 7%;
+    }
+
+    .page12-inner > h1 {
+        font-size: 7vw;
+    }
+
+    .page12-inner > i {
+        font-size: 6vw;
+    }
+}
+
+
+/* =========================
+   VERY SMALL MOBILE
+========================= */
+
+@media (max-width: 380px) {
+
+    #right-nav > button:first-child {
+        display: none;
+    }
+
+    #page1 > nav > img {
+        width: 35%;
+    }
+
+    .bottom-page1 > h1 {
+        font-size: 12vw;
+    }
+
+    .bottom-page1-inner > h4 {
+        font-size: 4.5vw;
+    }
+
+    #page2 > h1 {
+        font-size: 8.5vw;
+    }
+
+    #page4 > h1 {
+        font-size: 8vw;
+    }
+
+    .right8-inner > h1 {
+        font-size: 8vw;
+    }
+
+    .right8-inner > p {
+        font-size: 4.2vw;
+    }
+}
